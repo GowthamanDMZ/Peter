@@ -2533,7 +2533,8 @@ ul.aglieits-nav li a:hover{
 		height: 266px;
 	}
 	.callbacks_tabs {
-		bottom: -20px;
+		display: none;
+		bottom: -34px;
 		left: 39.5%;
 		padding: 0;
 		margin: 0;
