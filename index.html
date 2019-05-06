@@ -72,6 +72,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 </script>-->
 <body>
 <!-- header -->
+	<div id="preloader">
+		<div id="status"><img src="images/header/preloader.gif" id="preloader_image" alt="loader">
+		</div>
+	</div>
 	<header>
 		<div class="container" style ="padding-left:0px !Important;">
 			<img src="images/main.png" alt="img09" />
@@ -367,6 +371,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 			<script type="text/javascript" src="js/move-top.js"></script>
 			<script type="text/javascript" src="js/easing.js"></script>
 			<script type="text/javascript">
+				jQuery(window).on('load', function() {
+					jQuery("#status").fadeOut();
+					jQuery("#preloader").delay(350).fadeOut("slow");
+				});
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){		
 						event.preventDefault();
