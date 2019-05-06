@@ -29,6 +29,19 @@ body a{
 	width: 100%;
 	height: 100%;
 }
+#status {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
